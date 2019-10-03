@@ -12,8 +12,9 @@ public class AppTest {
     // Add more tests
     // Connected , unconfigured track true- Case 1
     @Test
-    public void testLength() {
+    public void testLength() throws Exception {
         // Test with new Dev build 1
+        Thread.sleep(5000);
         Assert.assertEquals(INPUT,"44");
         Assert.assertEquals(INPUT2,"115");
     }
