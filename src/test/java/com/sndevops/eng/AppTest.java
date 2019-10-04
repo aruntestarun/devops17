@@ -12,7 +12,7 @@ public class AppTest {
     private boolean isPassed = true;
     // Add more tests
     // Connected , unconfigured track true- Case 1
-    @Ignore
+    
     public void testLength() throws Exception {
         // Test with new Dev build 1
         Thread.sleep(5000);
@@ -20,7 +20,7 @@ public class AppTest {
         Assert.assertEquals(INPUT2,"115");
     }
     
-    @Ignore
+    
     public void testPassed() throws Exception {
         Thread.sleep(6000);
         Assert.assertEquals(isPassed,true);
