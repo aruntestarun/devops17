@@ -17,7 +17,7 @@ public class AppTest {
     public void testLength() throws Exception {
         // Test with new Dev build 1
         Thread.sleep(5000);
-        Assert.assertEquals(INPUT,"44");
+        Assert.assertEquals(INPUT,"4");
         Assert.assertEquals(INPUT2,"115");
     }
     
