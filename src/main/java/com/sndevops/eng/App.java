@@ -12,5 +12,6 @@ public class App
         // Add more functionality
         System.out.println( "Hello devops. How are you" );
         System.out.println( "Hello . Give me an pineapple" );
+        
     }
 }
