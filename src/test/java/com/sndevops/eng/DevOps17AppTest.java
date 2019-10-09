@@ -14,7 +14,7 @@ public class AppTest {
     // Connected , unconfigured track true- Case 1
     
     @Test
-    public void testLength() throws Exception {
+    public void testDevOps17_1() throws Exception {
         // Test with new Dev build 1
         Thread.sleep(5000);
         Assert.assertEquals(INPUT,"4");
@@ -22,13 +22,13 @@ public class AppTest {
     }
     
     @Test
-    public void testPassed() throws Exception {
+    public void testDevOps17_2() throws Exception {
         Thread.sleep(6000);
         Assert.assertEquals(isPassed,true);
     }
     
         @Ignore
-    public void testFailed() {
+    public void testDevOps17_3() {
         Assert.assertEquals(isPassed,false);
     }
 }
