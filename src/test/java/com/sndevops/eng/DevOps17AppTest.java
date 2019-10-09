@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.Ignore;
 
-public class AppTest {
+public class DevOps17AppTest {
     private String INPUT = "44";
     private String INPUT1 = "1234567";
     private String INPUT2 = "115";
