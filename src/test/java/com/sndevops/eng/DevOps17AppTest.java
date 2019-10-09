@@ -21,6 +21,7 @@ public class DevOps17AppTest {
         Assert.assertEquals(INPUT2,"115");
     }
     
+    @Ignore
     @Test
     public void testDevOps17_2() throws Exception {
         Thread.sleep(6000);
