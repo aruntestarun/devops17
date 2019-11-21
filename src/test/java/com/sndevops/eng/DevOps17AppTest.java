@@ -39,12 +39,12 @@ public class DevOps17AppTest {
     @Test
     public void testDevOps17_4() throws Exception {
         Thread.sleep(3000);
-        Assert.assertEquals(INPUT,"44");
+        Assert.assertEquals(INPUT,"1");
     }
     
     @Test
     public void testDevOps17_5() {
-        Assert.assertEquals(INPUT,"1");
+        Assert.assertEquals(INPUT,"44");
     }
     @Test
     public void testDevOps17_6() {
